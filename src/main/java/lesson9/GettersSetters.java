@@ -7,6 +7,6 @@ public class GettersSetters {
     }
     public int getValue() {
         return value;
-    
+
     }
 }

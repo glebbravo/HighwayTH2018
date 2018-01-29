@@ -4,7 +4,7 @@ public  class Box {
     public double width;//ширина
     public double height;//высота
     public double depth;//глубина
-    private Box() {
+    public Box() {
     width = 10;
     height = 10;
     depth = 10;

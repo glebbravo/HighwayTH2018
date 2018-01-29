@@ -14,7 +14,7 @@ public class BoxMain {
         parallelepiped.height = 20;
         parallelepiped.depth = 15;
 
-        cube.volume();
-        parallelepiped.volume();
+        cube.getVolume();
+        parallelepiped.getVolume();
     }
 }
