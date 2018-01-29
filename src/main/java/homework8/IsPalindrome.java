@@ -19,9 +19,9 @@ public class IsPalindrome {
 
     public static Boolean isPalindrome(String s) {
         if (s.equals(reverseString(s))) {
-            System.out.println("Полиндром");
+            System.out.println("Палиндром");
         } else {
-            System.out.println("Не полиндром");
+            System.out.println("Не палиндром");
         }
         return s.equals(reverseString(s));
 
