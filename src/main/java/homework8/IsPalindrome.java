@@ -11,7 +11,7 @@ public class IsPalindrome {
 
     public static String reverseString(String s) {
         String r = "";
-        String pol = r.replaceAll("[^A-Za-z1-9]+", "");
+        String pol = s.replace(" ", "");
         for (int i = s.length() - 1; i >= 0; --i)
             r += s.charAt(i);
         return pol;
